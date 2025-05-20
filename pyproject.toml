@@ -1,0 +1,18 @@
+[project]
+name = "rang-with-ranggraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "chromadb>=1.0.9",
+    "dotenv>=0.9.9",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.1.4",
+    "langchain-groq>=0.3.2",
+    "langgraph>=0.4.5",
+    "streamlit>=1.45.1",
+    "tiktoken>=0.9.0",
+]
